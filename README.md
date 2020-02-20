@@ -11,8 +11,9 @@ Realizamos conexion con TELNET de la siguiente manera:
 ![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/1.png)
 
 Realizamos la peticion GET: 
-
-_GET http://www.escuelaing.edu.co/sssss/abc.html HTTP/1.1_
+    
+    GET /sssss/abc.html HTTP/1.1
+    Host: www.escuelaing.edu.co
 
 ![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/2.png)
 
