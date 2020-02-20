@@ -2,6 +2,7 @@
 # Escuela Colombiana de Ingenieria Julio Garavito 
 # Daniel Felipe Alfonso Bueno 
 
+## Parte I. - Jugando a ser un cliente HTTP
 Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
 
     Host: www.escuelaing.edu.co
@@ -74,3 +75,6 @@ realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recur
 ¿Cuáles son las diferencias con los diferentes parámetros curl -v y -i?
 - El comando curl -v nos muestra una informacion completa de la peticion GET realizada y el estado de la peticion en este caso 200 exitosa
 - El comando curl -i nos muestra solo la informacoin completa del estado de la peticion en este caso 200 
+
+## Parte II. - Haciendo una aplicación Web dinámica a bajo nivel.
+![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/5.png)
