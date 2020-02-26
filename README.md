@@ -94,7 +94,7 @@ Implemente dicho método de manera que:
 
     Con el identificador recibido, consulte el item por hacer de la lista de cosas por hacer, usando la clase "Service" creada en el punto.
 ![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/6.PNG)
-
+## Parte III.
 Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
 Creamos nuestro formulario 
 ![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/7.PNG)
