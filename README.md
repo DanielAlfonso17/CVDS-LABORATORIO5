@@ -78,3 +78,34 @@ realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recur
 
 ## Parte II. - Haciendo una aplicación Web dinámica a bajo nivel.
 ![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/5.png)
+
+Teniendo en cuenta las siguientes métodos disponibles en los objetos ServletRequest y ServletResponse recibidos por el método doGet:
+
+    response.setStatus(N); <- Indica con qué código de error N se generará la respuesta. Usar la clase HttpServletResponse para indicar el           
+    código de respuesta.
+    request.getParameter(param); <- Consulta el parámetro recibido, asociado al nombre ‘param’.
+    response.getWriter() <- Retorna un objeto PrintWriter a través del cual se le puede enviar la respuesta a quien hizo la petición.
+    response.setContentType(T) <- Asigna el tipo de contenido (MIME type) que se entregará en la respuesta.
+
+Implemente dicho método de manera que:
+
+    Asuma que la petición HTTP recibe como parámetro el número de id de una lista de cosas por hacer (todo), y que dicha identificación es  
+    un número entero.
+
+    Con el identificador recibido, consulte el item por hacer de la lista de cosas por hacer, usando la clase "Service" creada en el punto.
+![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/6.PNG)
+
+Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
+Creamos nuestro formulario 
+![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/7.PNG)
+Con el metodo _GET_ lleva los datos de forma "visible" al cliente (navegador web). El medio de envío es la URL. Los datos los puede ver cualquiera. Esto podria significar un peligro de confidencialidad de los datos 
+![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/8.PNG)
+Con el metodo _POST_ consiste en datos "ocultos" (porque el cliente no los ve) enviados por un formulario cuyo método de envío es post. Es adecuado para formularios. Los datos no son visibles.
+![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/9.PNG)
+
+¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno.
+
+En la clase Service encontramos 3 metodos: 
+- getTodo: Nos permite obtener todos los datos que necesitamos en este caso Id, UserId, Title, Completed pero esta información está en JSON (JavaScrip Object Notation) y luego por medio de Google Gson nos permite pasar de una representación JSON a un objeto java.
+
+todoToHTMLRow y todosToHTMLTable lo que nos permite es coger los objetos java que transformamos en el método anterior y convertirlos en HTML con un estilo de tabla para que el navegador nos pueda mostrar esta información.
