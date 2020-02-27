@@ -28,3 +28,10 @@
 0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:11:08 -0500] "GET /AlfonsoServlet?id=3 HTTP/1.1" 200 165 http-bio-8080-exec-3 286
 0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:11:14 -0500] "GET /AlfonsoServlet?id=4 HTTP/1.1" 200 161 http-bio-8080-exec-3 193
 0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:11:22 -0500] "GET /AlfonsoServlet?id=47 HTTP/1.1" 200 177 http-bio-8080-exec-3 1884
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:13:58 -0500] "GET /AlfonsoServlet?id=2 HTTP/1.1" 200 180 http-bio-8080-exec-1 691
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:29:55 -0500] "GET /index.html HTTP/1.1" 200 595 http-bio-8080-exec-4 5
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:29:55 -0500] "GET /validateForm.js HTTP/1.1" 304 - http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:30:19 -0500] "GET /index.html HTTP/1.1" 304 - http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:30:21 -0500] "GET /index.html HTTP/1.1" 304 - http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:30:35 -0500] "GET /faces/guess.xhtml HTTP/1.1" 200 3667 http-bio-8080-exec-10 9448
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:09:30:35 -0500] "GET /faces/guess.xhtml HTTP/1.1" 200 3665 http-bio-8080-exec-7 34964
