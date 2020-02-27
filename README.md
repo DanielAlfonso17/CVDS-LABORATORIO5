@@ -2,6 +2,8 @@
 # Escuela Colombiana de Ingenieria Julio Garavito 
 # Daniel Felipe Alfonso Bueno 
 
+[![CircleCI](https://circleci.com/gh/DanielAlfonso17/CVDS-Laboratorio5.svg?style=svg)](https://circleci.com/gh/DanielAlfonso17/CVDS-Laboratorio5/)
+
 ## Parte I. - Jugando a ser un cliente HTTP
 Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
 
