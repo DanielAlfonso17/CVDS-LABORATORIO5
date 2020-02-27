@@ -11,7 +11,7 @@ xmlns:p="http://primefaces.org/ui">
                 <p:outputLabel value="Estado: #{GuessBean.estado}"></p:outputLabel>
                 <p:outputLabel value="Acomulado #{GuessBean.acomulado}"></p:outputLabel>
                 <p:outputLabel value="Numero Intentos Fallidos #{GuessBean.intentosFallidos}"></p:outputLabel>
-                <p:outputLabel style="" value="#{GuessBean.numeroAdivinar}"></p:outputLabel>
+                <p:outputLabel style="display: none" value="#{GuessBean.numeroAdivinar}"></p:outputLabel>
                 
                 <p:commandButton update="guess_form" actionListener="#{GuessBean.guess(numeroUsuario.value)}" value="Jugar"></p:commandButton>
                 <p:commandButton update="guess_form" actionListener="#{GuessBean.restart}" value="Reiniciar"></p:commandButton>
