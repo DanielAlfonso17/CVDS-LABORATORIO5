@@ -6,10 +6,11 @@ xmlns:p="http://primefaces.org/ui">
         <link rel="stylesheet" type="text/css" href="styles.css" />
     </h:head>
     <h:body>
+        <h1>Juega...</h1>
         <h:form id="guess_form">
-            <p:panelGrid columns="4">
+            <p:panelGrid columns="2" >			
                 <p:inputText id="numeroUsuario" binding="#{numeroUsuario}"></p:inputText>
-                <p:outputLabel value="Intentos: #{GuessBean.intentos}"></p:outputLabel>
+                <p:outputLabel id="label" value="Intentos: #{GuessBean.intentos}"></p:outputLabel>
                 <p:outputLabel value="Estado: #{GuessBean.estado}"></p:outputLabel>
                 <p:outputLabel value="Acomulado #{GuessBean.acomulado}"></p:outputLabel>
                 <p:outputLabel value="Numero Intentos Fallidos #{GuessBean.intentosFallidos}"></p:outputLabel>
